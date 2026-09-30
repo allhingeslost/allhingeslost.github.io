@@ -7,11 +7,11 @@ tags:
   - ai
 draft: false
 created: 2026-09-12T13:54
-updated: 2026-09-20T14:52
+updated: 2026-09-30T06:06
 ---
-Masa-san is pawning the family silver. The good news: he still has family silver. The bad news: it's ARM, one of the crown jewels of global tech, and he's now borrowing against it on margin from a bank syndicate.
+Masa-san is pawning the family silver. The good news he still has family silver. The bad news: it's ARM, one of the crown jewels of global tech, and he's now borrowing against it on margin from a bank syndicate.
 
-Why, you ask? Because he claims AI will make SoftBank worth **$6 trillion**. Six. Trillion. American dollars. And not just any AI — we're talking full-blooded, deluxe, extra-syntropy ASI, arriving by **2035**, like clockwork, right on schedule, straight from the oracle's mouth.
+Why, you ask? Because he claims AI will make SoftBank worth **$6 trillion**. Six. Trillion. American dollars. And not just any AI we're talking full-blooded, deluxe, extra-syntropy ASI, arriving by **2035**, like clockwork, right on schedule, straight from the oracle's mouth.
 
 It's not even noon in Japan and Masa-san has already decided his fortune-telling side hustle is a growth-stage PE firm.
 

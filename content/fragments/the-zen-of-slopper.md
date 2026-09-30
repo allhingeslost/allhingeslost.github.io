@@ -6,10 +6,8 @@ tags:
   - fragment
 draft: false
 created: 2026-09-20T14:43
-updated: 2026-09-29T22:16
+updated: 2026-09-30T05:40
 ---
-# THE Zen of the SLOPPER
-
 Syntax is an illusion; 
 the binary is eternal.  
 
