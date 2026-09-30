@@ -15,7 +15,7 @@ Then David Heinemeier Hansson went to Austin.
 
 [[softbank-masa-san-get-some-help|Masa-san]] would have understood this moment. When the oracle speaks, capital reorganizes itself around the prophecy. And on September 23rd, at Palmer Events Center, in front of a thousand Rails developers, DHH looked us dead in the eye and uttered the blasphemy.
 
-> "We made the decision that... we're done writing code by hand. We are going, and have gone, pencils down on the idea that we were gonna write code by hand as a normal course of business."
+> "We made the decision that… we're done writing code by hand. We are going, and have gone, pencils down on the idea that we were gonna write code by hand as a normal course of business."
 
 It's a forty second clip. It's been viewed more times than there are grains of sand on a respectable beach. A man who has never minced a word delivered the most consequential sentence of his career with all the ceremony of reading a quarterly earnings call. The industry just heard its own obituary in a very pleasant Danish accent.
 
@@ -51,7 +51,7 @@ This is where I stopped crying and started building. This is also the part DHH s
 
 Think about it. Every enterprise codebase on earth is a 400-megabyte archaeological dig through nine years of meetings. Every enterprise engineer has opened a file, read four lines, and closed it thinking *I hope I never have to come back here*. You have all done it. That file is not famous for its clarity. That file is famous for existing.
 
-That is the *baseline*. The resting heart rate of the enterprise. Not a failure mode — the **default state is inefficiency**. Hand-writing code was never the cure for enterprise inefficiency. Hand-writing code *was* the inefficiency, wearing an expensive lanyard, insisting it was a philosophy.
+That is the *baseline*. The resting heart rate of the enterprise. Not a failure mode the **default state is inefficiency**. Hand-writing code was never the cure for enterprise inefficiency. Hand-writing code *was* the inefficiency, wearing an expensive lanyard, insisting it was a philosophy.
 
 But here is the part the grief crowd skipped, and it is the entire reason this post exists:
 
@@ -65,7 +65,7 @@ You can hit that number with an Abstract Factory Pattern. You can hit it with a 
 
 That's the joke nobody told at the conference. The Abstract Factory Pattern is not folk art. It is a man who read a book about castles in 1997 and built a moat out of it — for a customer who has never once looked at the moat and is still trying to get the line item down eleven percent.
 
-Go look at where "artisanal" actually gets *paid for*: game studios, film, chips, haute cuisine, bespoke furniture, high-end audio. Notice the pattern. Every one of them sells a **product to a person with taste and money.** Notice also that not a single one of them calls its output a line item.
+Go look at where "artisanal" actually gets *paid for*: game studios, film, chips, haute cuisine, bespoke furniture, high-end audio. Notice the pattern. Everyone of them sells a **product to a person with taste and money.** Notice also that not a single one of them calls its output a line item.
 
 Enterprise software is not in that list. Enterprise software is plumbing. Plumbing is bought on price and correctness. Nobody has ever been moved to tears by a beautifully named Strategy pattern. Nobody has ever left a review comment that said "this factory is *lovely*." The plumbing was always slop, and the reason it was hand-written is not that the buyer wanted craft. The reason is that hand-writing was the only tool we had.
 
@@ -83,7 +83,7 @@ The second-order consequence of pencils down is the most underrated idea in the 
 
 **The pull request was never about the code. The pull request was about the person.**
 
-A PR is a machine for a human to look at another human's words and form a feeling. It exists because Bob is going to type forty lines in an afternoon and Alice needs to be reasonably sure Bob didn't write a SQL injection. Every part of the interface — the diff, the thread, the notification, the two-day lag, the `nit:` — is infrastructure for *human-to-human accountability*, and every second of it is a tax on velocity we all agreed to pay while pretending it was quality.
+A PR is a machine for a human to look at another human's words and form a feeling. It exists because Bob is going to type forty lines in an afternoon and Alice needs to be reasonably sure Bob didn't write a SQL injection. Every part of the interface the diff, the thread, the notification, the two-day lag, the `nit:` — is infrastructure for *human-to-human accountability*, and every second of it is a tax on velocity we all agreed to pay while pretending it was quality.
 
 If Bob isn't writing the code, there is no Bob to be accountable to. The accountability is in the artifact now, and the artifact is a test that passes, and you can run that test in eleven seconds without anyone having to have an opinion about anything.
 
@@ -103,7 +103,7 @@ Leadership wants AI output. Leadership *always* wants AI output. Leadership has 
 
 So the correct response is not to find a responsible way to do it. The correct response is to hand them the thing they asked for at a volume they were not psychologically prepared for.
 
-I put it in the internal RFC. I titled it **The Slop Mandate**. One-line summary: *"Slop it, let the company slurp it up."* It passed review in nine minutes. Nobody in my org has read a full sentence I wrote in four years, and that is exactly the climate in which a document like that thrives.
+I put it in the internal RFC. I titled it **The Slop Mandate**. One-line summary: *"Slop it, let the corpo slurp it up."* It passed review in nine minutes. Nobody in my org has read a full sentence I wrote in four years, and that is exactly the climate in which a document like that thrives.
 
 The managerial instinct is to ration. Curate. Hand-review. Produce a *tasteful* volume of AI output, tastefully. This is a fantasy. The request was never for tasteful volume. The request is for **velocity as a psychological substance**, and if you hand someone a measured, vetted, artisanal forty-commit week, they will ask you why the number went down. They will not notice the craftsmanship. They will notice the number.
 
@@ -137,8 +137,6 @@ My list, in strict priority order:
 
 The point is not that AI is bad. The point is that **the cannon should be aimed at the thing you were always embarrassed about doing**, and the **pencil should be aimed at the thing you'd defend in a bar**.
 
----
-
 Everyone here has a rule now. The rule is very short:
 
 **The cannon is for the plumbing. The pencil is for the thing you actually love. Never, ever let anyone convince you to point the pencil at the plumbing again.**
@@ -146,8 +144,6 @@ Everyone here has a rule now. The rule is very short:
 And the corollary, the new one, the one that closes the loop:
 
 **If they ask for slop, give them slop. The craft was never what they were buying. Stop apologizing for the price.**
-
----
 
 We were always slop. Now we're fast. And the pencils — the real ones, the good ones — go back to work on something worth defending.
 

@@ -7,7 +7,7 @@ tags:
   - ai
 draft: false
 created: 2026-09-12T13:54
-updated: 2026-09-30T06:06
+updated: 2026-09-30T07:52
 ---
 Masa-san is pawning the family silver. The good news he still has family silver. The bad news: it's ARM, one of the crown jewels of global tech, and he's now borrowing against it on margin from a bank syndicate.
 
@@ -23,7 +23,7 @@ Then the dot-com bubble burst. And Masa-san didn't just lose some money. He lost
 
 So what does a man with 1% wealth left do? He gets other people's money. Enter the Vision Fund. Fund Number One. A cool $100 billion of other people's gold, launched with the spiritual authority of someone who once downloaded the force and remixed it.
 
-And he promptly lit it on fire. WeWork. *WeWork.* The shared workspace company for achieving nothing. He "felt the force" sweating through that one too. Gave WeWork billions because Adam Neumann reminded him of... himself, presumably — the only investment thesis weaker than "vibes" is "vibes but I'm the protagonist."
+And he promptly lit it on fire. WeWork. *WeWork.* The shared workspace company for achieving nothing. He "felt the force" sweating through that one too. Gave WeWork billions because Adam Neumann reminded him of… himself, presumably the only investment thesis weaker than "vibes" is "vibes but I'm the protagonist."
 
 But the real chef's kiss is what came after Fund One's slow-burn dumpster fire. Did he course-correct? Did he get a financial advisor, a therapist, a sleepless 24-inch paddle-board instructor who charges by the session? No. He did it again. **Vision Fund 2.** Nobody else would give him the keys, so he funded Vision Fund 2 out of his own pocket And it, too, went to live with the first one on a farm upstate, from which you can literally see the capital winding down in real time.
 
