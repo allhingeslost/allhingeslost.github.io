@@ -149,8 +149,6 @@ And the corollary, the new one, the one that closes the loop:
 
 ---
 
-And that's the whole arc. Six acts, one bomber, one melted flash drive, a woman with excellent shoes, a man who said *he's got 800 tps chambered*, and David Heinemeier Hansson in a very good sweater telling a thousand people he is done typing.
-
 We were always slop. Now we're fast. And the pencils — the real ones, the good ones — go back to work on something worth defending.
 
 Pencils down. Cannons up. See you in `main`.
