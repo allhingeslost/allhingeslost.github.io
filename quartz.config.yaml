@@ -218,7 +218,7 @@ plugins:
     options:
       provider: giscus
       options:
-        repo: arkamfahry/bit-dump
+        repo: pixeldump/pixel-blog
         repoId: R_kgDOMCDKww
         category: Q&A
         categoryId: DIC_kwDOMCDKw84CjuoI
