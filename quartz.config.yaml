@@ -1,13 +1,13 @@
 # yaml-language-server: $schema=./quartz/plugins/quartz-plugins.schema.json
 configuration:
-  pageTitle: BitDump
+  pageTitle: PixelDump
   pageTitleSuffix: ""
   enableSPA: true
   enablePopovers: true
   analytics:
     provider: plausible
   locale: en-US
-  baseUrl: arkamfahry.github.io/bit-dump
+  baseUrl: pixeldump.github.io/pixel-blog
   ignorePatterns:
     - private
     - templates
@@ -222,7 +222,7 @@ plugins:
         repoId: R_kgDOMCDKww
         category: Q&A
         categoryId: DIC_kwDOMCDKw84CjuoI
-        themeUrl: https://arkamfahry.github.io/bit-dump/static/giscus
+        themeUrl: https://pixeldump.github.io/pixel-blog/static/giscus
         lightTheme: light
         darkTheme: dark
         mapping: pathname
@@ -234,7 +234,7 @@ plugins:
     enabled: true
     options:
       links:
-        GitHub: https://github.com/arkamfahry
+        GitHub: https://github.com/pixeldump
         Discord Community: https://discord.gg/2Gd7gMvTk2
   - source: github:quartz-community/recent-notes
     enabled: true
