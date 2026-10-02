@@ -59,11 +59,11 @@ But here is the part the grief crowd skipped, and it is the entire reason this p
 
 Every enterprise engineering org runs a spreadsheet. The columns are: headcount, cost per engineer, throughput, cost of change, vendor spend. There is no column. There has never been a column. Nobody has ever been promoted for the beauty of a well-named interface.
 
-*Artisanal* is a word from a different economy. It belongs to people with surplus. Nobody buys handmade shoes because the factory pair is defective — they buy handmade shoes because the buyer has money left over and a preference. The enterprise is not the buyer with money left over. The enterprise is the buyer with a line item. And the line item does not contain your taste. The line item contains: a thing that works, on a date, at a number.
+*Artisanal* is a word from a different economy. It belongs to people with surplus. Nobody buys handmade shoes because the factory pair is defective. They buy handmade shoes because the buyer has money left over and a preference. The enterprise is not the buyer with money left over. The enterprise is the buyer with a line item. And the line item does not contain your taste. The line item contains: a thing that works, on a date, at a number.
 
 You can hit that number with an Abstract Factory Pattern. You can hit it with a `map` over a `List<Foo>`. You can hit it with a machine. What you cannot do is hit it *expensively on purpose* and have the spreadsheet thank you.
 
-That's the joke nobody told at the conference. The Abstract Factory Pattern is not folk art. It is a man who read a book about castles in 1997 and built a moat out of it — for a customer who has never once looked at the moat and is still trying to get the line item down eleven percent.
+That's the joke nobody told at the conference. The Abstract Factory Pattern is not folk art. It is a man who read a book about castles in 1997 and built a moat out of it, for a customer who has never once looked at the moat and is still trying to get the line item down eleven percent.
 
 Go look at where "artisanal" actually gets *paid for*: game studios, film, chips, haute cuisine, bespoke furniture, high-end audio. Notice the pattern. Everyone of them sells a **product to a person with taste and money.** Notice also that not a single one of them calls its output a line item.
 
@@ -71,7 +71,7 @@ Enterprise software is not in that list. Enterprise software is plumbing. Plumbi
 
 So the artisans weren't defending a customer. They were defending a craft in front of a buyer who had never asked for it and was actively trying to spend less on it. You were defending artisanal craftsmanship to someone who wanted a cheap toilet. The toilet was fine. **The toilet was always fine.**
 
-Which means — and I cannot believe I have to draw this line — if the buyer never wanted the craft, and the buyer *did* want the velocity, and the buyer *did* want the volume, and the buyer is going to open the spreadsheet and look at the number on Thursday, then hand-writing was never a quality signal.
+Which means, and I cannot believe I have to draw this line, that if the buyer never wanted the craft, and the buyer *did* want the velocity, and the buyer *did* want the volume, and the buyer is going to open the spreadsheet and look at the number on Thursday, then hand-writing was never a quality signal.
 
 It was a **cost line**.
 
@@ -83,13 +83,13 @@ The second-order consequence of pencils down is the most underrated idea in the 
 
 **The pull request was never about the code. The pull request was about the person.**
 
-A PR is a machine for a human to look at another human's words and form a feeling. It exists because Bob is going to type forty lines in an afternoon and Alice needs to be reasonably sure Bob didn't write a SQL injection. Every part of the interface the diff, the thread, the notification, the two-day lag, the `nit:` — is infrastructure for *human-to-human accountability*, and every second of it is a tax on velocity we all agreed to pay while pretending it was quality.
+A PR is a machine for a human to look at another human's words and form a feeling. It exists because Bob is going to type forty lines in an afternoon and Alice needs to be reasonably sure Bob didn't write a SQL injection. Every part of the interface the diff, the thread, the notification, the two-day lag, the `nit:`, is infrastructure for *human-to-human accountability*, and every second of it is a tax on velocity we all agreed to pay while pretending it was quality.
 
 If Bob isn't writing the code, there is no Bob to be accountable to. The accountability is in the artifact now, and the artifact is a test that passes, and you can run that test in eleven seconds without anyone having to have an opinion about anything.
 
-So I deleted the PR UI. Not metaphorically. Removed the branch protection. Removed the review requirement. Deleted CODEOWNERS, which was four hundred lines of me and nine other people named in YAML — a document whose sole function was routing guilt to specific human beings.
+So I deleted the PR UI. Not metaphorically. Removed the branch protection. Removed the review requirement. Deleted CODEOWNERS, which was four hundred lines of me and nine other people named in YAML, a document whose sole function was routing guilt to specific human beings.
 
-To everyone staring at a 2,000-line diff right now: I *know* that feeling. 1:40 in the morning, eyes glazing, brain quietly declining to participate, typing `LGTM` anyway — because the alternative is being the person who blocks the release, and blocking the release is a *social* cost, so you pay a technical cost instead. A trade you should never have been offered in the first place.
+To everyone staring at a 2,000-line diff right now: I *know* that feeling. 1:40 in the morning, eyes glazing, brain quietly declining to participate, typing `LGTM` anyway, because the alternative is being the person who blocks the release, and blocking the release is a *social* cost, so you pay a technical cost instead. A trade you should never have been offered in the first place.
 
 That `LGTM` was a lie told with your whole chest. You weren't reviewing. You were *performing* reviewing so the machine could keep going. Every `LGTM` in every repository is a person holding a door open while shouting "GO AHEAD! I AM NOT LOOKING!"
 
@@ -145,7 +145,7 @@ And the corollary, the new one, the one that closes the loop:
 
 **If they ask for slop, give them slop. The craft was never what they were buying. Stop apologizing for the price.**
 
-We were always slop. Now we're fast. And the pencils — the real ones, the good ones — go back to work on something worth defending.
+We were always slop. Now we're fast. And the pencils, the real ones, the good ones, go back to work on something worth defending.
 
 Pencils down. Cannons up. See you in `main`.
 
