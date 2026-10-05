@@ -7,7 +7,7 @@ configuration:
   analytics:
     provider: plausible
   locale: en-US
-  baseUrl: pixeldump.github.io/pixel-blog
+  baseUrl: pixeldump.github.io/pixel-dump
   ignorePatterns:
     - private
     - templates
@@ -218,11 +218,11 @@ plugins:
     options:
       provider: giscus
       options:
-        repo: pixeldump/pixel-blog
+        repo: pixeldump/pixel-dump
         repoId: R_kgDOMCDKww
         category: Announcements
         categoryId: DIC_kwDOMCDKw84CjuoG
-        themeUrl: https://pixeldump.github.io/pixel-blog/static/giscus
+        themeUrl: https://pixeldump.github.io/pixel-dump/static/giscus
         lightTheme: light
         darkTheme: dark
         mapping: pathname
