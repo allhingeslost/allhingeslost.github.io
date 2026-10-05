@@ -220,8 +220,8 @@ plugins:
       options:
         repo: pixeldump/pixel-blog
         repoId: R_kgDOMCDKww
-        category: Q&A
-        categoryId: DIC_kwDOMCDKw84CjuoI
+        category: Announcements
+        categoryId: DIC_kwDOMCDKw84CjuoG
         themeUrl: https://pixeldump.github.io/pixel-blog/static/giscus
         lightTheme: light
         darkTheme: dark
