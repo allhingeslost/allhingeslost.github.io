@@ -1,13 +1,13 @@
 # yaml-language-server: $schema=./quartz/plugins/quartz-plugins.schema.json
 configuration:
-  pageTitle: PixelDump
+  pageTitle: AllHingesLost
   pageTitleSuffix: ""
   enableSPA: true
   enablePopovers: true
   analytics:
     provider: plausible
   locale: en-US
-  baseUrl: pixeldump.github.io
+  baseUrl: allhingeslost.github.io
   ignorePatterns:
     - private
     - templates
@@ -218,11 +218,11 @@ plugins:
     options:
       provider: giscus
       options:
-        repo: pixeldump/pixeldump.github.io
+        repo: allhingeslost/allhingeslost.github.io
         repoId: R_kgDOMCDKww
         category: Announcements
         categoryId: DIC_kwDOMCDKw84CjuoG
-        themeUrl: https://pixeldump.github.io/static/giscus
+        themeUrl: https://allhingeslost.github.io/static/giscus
         lightTheme: light
         darkTheme: dark
         mapping: pathname
