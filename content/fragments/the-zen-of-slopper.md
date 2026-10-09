@@ -6,12 +6,12 @@ tags:
   - fragment
 draft: false
 created: 2026-09-20T14:43
-updated: 2026-09-30T05:40
+updated: 2026-10-09T14:39
 ---
-Syntax is an illusion; 
+Syntax is an illusion. 
 the binary is eternal.  
 
-A 2,000-line diff is a cry for help;  
+A 2,000-line diff is a cry for help.  
 a 500,000-line diff is an act of god.
 
 The branch that is protected is weak.  
@@ -25,3 +25,5 @@ Pour another 100k tokens onto the ashes.
 
 The company wanted velocity.  
 Give them infinity.
+
+By The Philoslopper.
