@@ -7,67 +7,55 @@ tags:
   - capitalism
 draft: false
 created: 2026-09-20T14:43
-updated: 2026-10-10T18:13
+updated: 2026-10-11T13:40
 ---
-```pseudocode
-// ========================================================
-// PROGRAM: The Infinite Machine (Corporate Metastasis)
-// MOTTO: "Growth for the sake of growth is the ideology of the cancer cell."
-// ========================================================
+```python
+# ========================================================
+# THE INFINITE MACHINE (Corporate Metastasis)
+# "Growth for the sake of growth is the ideology of the cancer cell."
+# ========================================================
 
-STRUCT PublicCorporation:
-    PROPERTIES:
-        finite_resources = 100.0        // Planet, biosphere, raw materials
-        host_vitality    = 100.0        // Labor force, community wellbeing
-        target_growth_rate = 0.08       // Mandatory quarter-over-quarter expansion
-        quarterly_profits  = 10.0
-        shareholder_satisfaction = 0.0  // Can never be permanently filled
+def run_economic_engine():
 
-FUNCTION RunEconomicEngine():
-    
-    // The loop cannot stop; stagnation is treated as death
-    WHILE (shareholder_satisfaction < INFINITY):
-        
-        // --- 1. SET THE TARGET ---
-        next_quarter_target = quarterly_profits * (1.0 + target_growth_rate)
+    # --- THE HOST ---
+    finite_resources   = 100.0   # Topsoil, raw minerals, fresh water
+    human_vitality     = 100.0   # Living wages, community wellbeing, rest
 
-        // --- 2. EXTRACT FROM THE HOST ---
-        finite_resources = finite_resources - extract_natural_capital()
-        host_vitality    = host_vitality - optimize_labor_efficiency()
+    # --- THE MACHINE ---
+    quarterly_profits  = 10.0
+    mandatory_growth   = 0.08    # +8% compounding quarter-over-quarter
+    shareholder_greed  = infinity
 
-        // --- 3. EXTERNALIZE THE COSTS ---
-        // (Do not account for these on the balance sheet)
-        dump_externalities(carbon, ecological_degradation, social_burnout)
+    while shareholder_greed > 0:
 
-        // --- 4. PRESERVE SHORT-TERM VALUATION ---
-        IF (quarterly_profits < next_quarter_target):
-            trigger_mass_layoffs(percentage = 10)
-            deprecate_product_quality()
+        # 1. ESCALATE DEMANDS
+        next_target = quarterly_profits * (1.0 + mandatory_growth)
+
+        # 2. FEED ON THE HOST
+        finite_resources -= extract_natural_capital()
+        human_vitality   -= optimize_labor_efficiency()
+
+        # 3. DUMP THE TRUE COSTS (keep off the balance sheet)
+        externalize(carbon_emissions, ecological_ruin, worker_burnout)
+
+        # 4. DEFEND SHARE PRICE AT ALL COSTS
+        if quarterly_profits < next_target:
+            trigger_mass_layoffs(staff_cut = "10%")
+            deprecate_product_durability()
             execute_stock_buybacks()
-        END IF
 
-        // --- 5. METASTASIZE (EXPANSION) ---
-        acquire_competitors_or_eliminate()
+        # 5. EXPAND TERRITORY
+        acquire_or_starve_competitors()
         lobby_for_deregulation()
 
-        // --- 6. CHECK HOST VIABILITY ---
-        IF (finite_resources <= 0 OR host_vitality <= 0):
-            PRINT "CRITICAL ALERT: Host environment depleted."
+        # 6. COLLISION WITH PHYSICAL LIMITS
+        if finite_resources <= 0 or human_vitality <= 0:
+            print("ALERT: Host environment depleted.")
             
-            // The algorithm has no exit condition for ecological/social limits
-            // It attempts one final pivot:
+            # The algorithm has no off switch; it monetizes the end
             financialize_remaining_ruins()
-            
-            SYSTEM_COLLAPSE()
-            BREAK  // Forced termination by physical reality
-        END IF
+            raise SystemCollapse("Infinite math collided with finite biology.")
 
-        quarterly_profits = next_quarter_target
-        PRINT "Quarterly earnings beat expectations. Growth must continue."
-
-    END WHILE
-
-END FUNCTION
+        quarterly_profits = next_target
+        print("Record profits reported. Expansion must accelerate.")
 ```
-
-This is no finite state machine this runaway cancer train that eats itself.
