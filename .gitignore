@@ -10,4 +10,4 @@ private/
 replit.nix
 .quartz/
 quartz/cli/tui/dist/
-.agents
+.turbo/
