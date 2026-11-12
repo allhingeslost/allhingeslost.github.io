@@ -1,12 +1,12 @@
 ---
-title: THE Zen of the SLOPPER
+title: THE Zen of SLOPPER
 description:
 aliases:
 tags:
   - fragment
 draft: false
 created: 2026-09-20T14:43
-updated: 2026-10-09T14:39
+updated: 2026-11-12T15:12
 ---
 Syntax is an illusion. 
 the binary is eternal.  
